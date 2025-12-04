@@ -1,0 +1,29 @@
+[
+    {
+        "type": "ADV_IND",
+        "source": "Device_A",
+        "dest": "Broadcast",
+        "data": "Hello"
+    },
+    {
+        "type": "CONNECT_REQ",
+        "source": "Device_B",
+        "dest": "Device_A"
+    },
+    {
+        "type": "PAIR_REQ",
+        "source": "Device_A",
+        "method": "JustWorks"
+    },
+    {
+        "type": "PAIR_RSP",
+        "source": "Device_B",
+        "method": "JustWorks"
+    },
+    {
+        "type": "DATA",
+        "source": "Device_A",
+        "encrypted": false,
+        "payload": "HeartRate"
+    }
+]
